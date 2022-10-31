@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'chelvis.me | home';
+  document.title = 'chelvis.ml | home';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
