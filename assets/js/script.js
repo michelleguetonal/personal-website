@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['javascript', 'HTML', 'java', 'c#', 'c++', 'css'];
+  let text = ['OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO'];
 
   text.forEach(function (language, index) {
     typer.move(null);
