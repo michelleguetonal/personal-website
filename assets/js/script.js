@@ -30,14 +30,12 @@ function startIntroTyping() {
     .go();
 
   setTimeout(function () {
-    switchAllowed = true;
-  }, 2500);
-}
-function typerStartTyping(typer) {
-  typer.reset();
-
-  let text = ['welcome to my website'];
-  text.forEach(function (language, index) {
+     switchAllowed = true;
+ 	}, 2500); 
+} function typerStartTyping(typer) { 
+    typer.reset();
+    let text = ['OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO']; 
+    text.forEach(function (language, index) { 
     typer.move(null);
     typer.type(language, { delay: 1000 });
     typer.pause(1000);
