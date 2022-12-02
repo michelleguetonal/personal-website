@@ -31,14 +31,16 @@ function startIntroTyping() {
 
   setTimeout(function () {
      switchAllowed = true;
- 	}, 2500); 
-} function typerStartTyping(typer) { 
-    typer.reset();
-    let text = ['OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO']; 
-    text.forEach(function (language, index) { 
+  	}, 2500); 
+} 
+function typerStartTyping(typer) { 
+  typer.reset();
+
+  let text = ['OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO']; 
+  text.forEach(function (language, index) { 
     typer.move(null);
-    typer.type(language, { delay: 1000 });
-    typer.pause(1000);
+  typer.type(language, { delay: 1000 });
+  typer.pause(1000);
 
     typer.delete(language.length, { delay: 1000 });
   });
