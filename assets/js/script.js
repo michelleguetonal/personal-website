@@ -33,7 +33,10 @@ function startIntroTyping() {
     switchAllowed = true;
   }, 2500);
 }
+function typerStartTyping(typer) {
+  typer.reset();
 
+  let text = ['OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO', 'OHIO'];
 
   text.forEach(function (language, index) {
     typer.move(null);
