@@ -36,14 +36,14 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['welcome to my playlist'];
+  let text = ['welcome\'];
 
   text.forEach(function (language, index) {
     typer.move(null);
-    typer.type(language, { delay: 1500 });
-    typer.pause(1500);
+    typer.type(language, { delay: 1000 });
+    typer.pause(1000);
 
-    typer.delete(language.length, { delay: 1200 });
+    typer.delete(language.length, { delay: 1000 });
   });
 
   typer.go();
