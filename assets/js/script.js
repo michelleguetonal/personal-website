@@ -36,8 +36,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['welcome\'];
-
+  let text = ['welcome to my website'];
   text.forEach(function (language, index) {
     typer.move(null);
     typer.type(language, { delay: 1000 });
